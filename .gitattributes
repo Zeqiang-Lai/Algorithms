@@ -3,3 +3,4 @@
 *
 !*.c
 !Makefile
+.DS_Store

@@ -2,5 +2,19 @@
 
 Algorithms implemented in C++.
 
-主要是 清华大学 数据结构 [严蔚敏] 书中的出现的数据结构与算法。
+
+
+## Content
+
+主要内容为 *数据结构 [清华大学 严蔚敏版]* 中的出现的数据结构与算法。
+
+**Sort**
+
+1. bubblesort
+2. heapsort
+3. insertsort
+4. merge sort 
+5. merge sort (in place)
+6. quick sort
+7. shell sort
 
