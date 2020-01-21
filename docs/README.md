@@ -19,4 +19,4 @@ bundle exec jekyll serve
 
 ## Markdown Guide
 
-See (guide.md)[guide.md]
+See [guide.md](guide.md)
