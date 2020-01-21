@@ -10,9 +10,6 @@ github_username:  Zeqiang-Lai
 permalink: none
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
