@@ -1,0 +1,19 @@
+title: Algorithms && Data Structures
+email: ""
+description: "Illustrations for Common Algorithms and Data Structures."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cs230-stanford.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Zeqiang-Lai
+
+
+# Build settings
+permalink: none
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+display-site-nav: true

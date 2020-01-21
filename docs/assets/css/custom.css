@@ -1,0 +1,178 @@
+body {
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.post {
+  padding-top: 30px;
+}
+
+.home-page-content {
+  padding-bottom: 20px;
+}
+
+.center-image
+{
+    margin: auto;
+    display: block;
+    max-width: 70%;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}
+
+li.post-preview {
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* .title-wrapper {
+  text-align: center;
+} */
+
+a.post-preview {
+  color: inherit;
+  margin: 0px 0px;
+  margin-right: 5px;
+
+}
+
+a.post-preview:hover div.post-preview-title {
+  color: #B70B14;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
+.module-h1 {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+.module-h2 {
+  font-weight: 300;
+  font-size: 25px;
+  color: #B70B14;
+  text-align: center;
+  margin: 10px;
+}
+
+.post-preview-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.post-metadata {
+  display: inline-block;
+  float: left;
+  padding-top: 0.5em;
+  padding-right: 20px;
+
+}
+
+.post-date {
+  padding-bottom: 5px;
+}
+
+.tags {
+  display: inline-block;
+}
+
+.tag {
+    color: rgba(0,0,0,0.67);
+    padding: 0.1em 0.5em;
+    margin: 0;
+    font-size: 80%;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    float: left;
+}
+
+@media(min-width: 768px) {
+  .post-metadata {
+    width: 20%;
+  }
+
+  .post-github {
+    float: right;
+  }
+
+  .post-description {
+     width: 65%;
+  }
+}
+
+.post-description {
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.post-github {
+  background-color: #E1E4FF;
+  display: inline-block;
+  font-size: 80%;
+  margin-top: 10px;
+  padding: 0.1em 0.5em;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(0,0,0,0.4);
+  float: right;
+}
+
+a.post-github {
+  color: inherit;
+}
+
+a.post-github:hover {
+  color: inherit;
+  background-color: #C7EEAA;
+  text-decoration: none;
+}
+
+
+
+/* .site-header {
+  background-color: #B70B14;
+} */
+
+/* .site-title {
+  color: #FFF !important;
+  float: none;
+} */
+
+.page-link {
+  color: rgb(114, 114, 114) !important;
+}
+
+.page-content {
+  flex: 1;
+}
+
+.site-footer {
+  background-color: #EEF1F5;
+}
