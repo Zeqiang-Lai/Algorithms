@@ -1,9 +1,9 @@
 <table class="image">
 <tr>
 <td align="center">
-    <div class="center-image" style="max-width: {{ include.size }}"><img src="{{ include.url1 }}" alt="{{ include.caption1 }}" /></div></td>
+    <div class="center-image" style="max-width: {{ include.size }}"><img src="{{ include.url1 | relative_url}}" alt="{{ include.caption1 }}" /></div></td>
 <td style="max-width: {{ include.size }}" align="center">
-    <div class="center-image" style="max-width: {{ include.size }}"><img src="{{ include.url2 }}" alt="{{ include.caption2 }}" /></div></td>
+    <div class="center-image" style="max-width: {{ include.size }}"><img src="{{ include.url2 | relative_url}}" alt="{{ include.caption2 }}" /></div></td>
 </tr>
 <tr>
 <td align="center">{{ include.caption1 }}</td>
