@@ -43,12 +43,15 @@ vector<int> get_next2(const string& p) {
     return next;
 }
 
+// 不要使用这个, 这种优化写法是错的
+// Do not use this version, it is incorrect optimization.
 vector<int> get_next_opt(const string& p) {
     vector<int> next(p.size());
     next[0] = -1;
     for(int i=1;i<p.size();i++){
         int k=i-1;
         while(k!=0 && p[i-1] != p[next[k]]) k=next[k];  // 先找出"OK"的前缀后缀
+        // 直接这样优化是不行的
         if(p[i] != p[next[k]+1]) next[i] = next[k] + 1;
         else next[i] = next[next[k]+1];
     }
@@ -148,7 +151,7 @@ int main()
     string source = getline();
     string pattern = getline();
     // int pos = find_vanilla2(source, pattern);
-    int pos = find_kmp(source, pattern, get_next_opt);
+    int pos = find_kmp(source, pattern, get_next2_opt);
     printResult(source, pattern, pos);
     return 0;
 }
