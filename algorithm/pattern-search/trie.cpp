@@ -3,6 +3,7 @@ Trie树
 g++ trie.cpp -o trie -std=c++11
 
 date: 2020-1-24
+blog: https://zeqiang-lai.github.io/Algorithms/trie树.html
 */
 
 #include <iostream>
