@@ -1,8 +1,6 @@
 # Algorithm
 
-Algorithms implemented in C++.
-
-
+Algorithms implemented in C++. [Website](https://zeqiang-lai.github.io/Algorithms/)
 
 ## Content
 
